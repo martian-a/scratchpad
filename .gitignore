@@ -1,0 +1,8 @@
+# Local settings
+.project
+*.xpr
+
+# Ephemeral files
+output/
+tmp/
+*.properties
