@@ -25,9 +25,13 @@ This particular example is hard-coded to search for `*.xpl` files and validate t
 
 * XML Calabash 3.*
 
-# Run from the command line <a id="how-to-run"></a>
+## Run from the command line <a id="how-to-run"></a>
 
 Unix:
 ```
 $> java -cp  /path/to/calabash.jar com.xmlcalabash.app.Main path/to/batch_validate.xpl source-dir=path/to/directory/to/search
 ```
+
+## Notes
+
+This code was written as an example of how someone's very specific use-case could be addressed.  It wasn't written with any other use-cases in mind (hence the hard-coding and lack of options).
